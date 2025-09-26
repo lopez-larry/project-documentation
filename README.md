@@ -1,20 +1,21 @@
 project-documentation
 
+``` mermaid
 flowchart TD
 
-    A[Project Charter / Initiation Document] --> B[Software Requirements Specification (SRS)]
-    B --> C[Software Design Document (SDD/SAD)]
-    C --> D[Test Plan]
-    D --> E[Deployment / Release Plan]
-    E --> F[Project Closure / Post-Implementation Report]
+    A[Project Charter / Initiation Document] -->
+    B[Software Requirements Specification] --> 
+    C[Software Design Document] --> 
+    D[Test Plan] --> 
+    E[Deployment / Release Plan] --> 
+    F[Project Closure / Post-Implementation Report]
 
-    classDef start fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef doc fill:#bbf,stroke:#333,stroke-width:1px;
-    classDef end fill:#bfb,stroke:#333,stroke-width:2px;
+    %% Define styles
+    classDef fixed fill:#c7c2f7,stroke:#333,stroke-width:1px,text-align:center;
 
-    A:::start
-    B:::doc
-    C:::doc
-    D:::doc
-    E:::doc
-    F:::end
+
+    %% Apply styles
+    class A,B,C,D,E,F fixed
+
+
+```
