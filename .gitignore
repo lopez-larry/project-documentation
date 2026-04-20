@@ -261,5 +261,5 @@ yarn-error.log*
 
 docs/
 AWS/
-Templates/
+Word-Template/
 *.docx
