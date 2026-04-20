@@ -261,3 +261,5 @@ yarn-error.log*
 
 docs/
 AWS/
+Templates/
+*.docx
