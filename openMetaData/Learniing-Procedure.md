@@ -4,7 +4,7 @@ Each procedure focuses on a specific “workflow” folder.
 
 ⸻
 
-## Procedure 1 – Ingestion Workflows (Python)
+## Procedure 1 – Ingestion Workflows (Python)
 
 Location: 
 > ingestion/src/metadata/workflow  
@@ -34,7 +34,7 @@ This folder holds sample YAML files that show how to configure ingestion workflo
 
 ⸻
 
-## Procedure 3 – Server‑Side Workflow Handlers (Java)
+## Procedure 3 – Server‑Side Workflow Handlers (Java)
 
 Locations:
 
@@ -51,7 +51,7 @@ These Java packages define workflow interfaces and handlers used by the OpenMeta
 
 ⸻
 
-## Procedure 4 – Governance Workflow Definitions (JSON Data)
+## Procedure 4 – Governance Workflow Definitions (JSON Data)
 
 Location: 
 > openmetadata-service/src/main/resources/json/data/governance/workflows
@@ -65,7 +65,7 @@ This directory contains ready‑to‑load JSON workflow definitions used for gov
 
 ⸻
 
-## Procedure 5 – Workflow Schema Definitions
+## Procedure 5 – Workflow Schema Definitions
 
 Locations:
 
@@ -81,7 +81,7 @@ These folders hold the formal schema and Java classes that describe workflow str
 
 ⸻
 
-## Procedure 6 – Airflow‑Managed API Workflows (Python)
+## Procedure 6 – Airflow‑Managed API Workflows (Python)
 
 Location: 
 > openmetadata-airflow-apis/openmetadata_managed_apis/workflows
@@ -96,7 +96,7 @@ Once you understand how Airflow integration works, we can move on.
 
 ⸻
 
-## Procedure 7 – GitHub and CI Workflows
+## Procedure 7 – GitHub and CI Workflows
 
 Location: 
 > .github/workflows (and skills/.github/workflows)
