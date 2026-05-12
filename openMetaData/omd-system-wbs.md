@@ -1,3 +1,4 @@
+```markdown
 OpenMetadata-PoC
 ├── AWS Foundation (Epic)
 │   ├── Compute Platform Selection (Task)
@@ -228,3 +229,4 @@ OpenMetadata-PoC
         ├── Define production architecture
         ├── Plan scaling
         └── Define next steps
+```
